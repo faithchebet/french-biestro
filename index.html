@@ -430,6 +430,38 @@ commentForm.addEventListener('submit', event => {
   // Clear the input field
   document.getElementById('newComment').value = '';
 });
+// Cancel Reservation button click event
+const cancelReservationButton = document.getElementById('cancelReservation');
+    cancelReservationButton.addEventListener('click', () => {
+    
+      alert('Reservation canceled!');
+    });
+
+    // Review submission 
+    const reviewForm = document.getElementById('reviewForm');
+    reviewForm.addEventListener('submit', event => {
+      event.preventDefault();
+
+      const newReviewContent = document.getElementById('newReview').value;
+
+      // Add new review 
+      const newReviewItem = document.createElement('li');
+      newReviewItem.textContent = newReviewContent;
+      commentsList.appendChild(newReviewItem);
+
+      // Clear the input field
+      document.getElementById('newReview').value = '';
+    });
+
+    // Like Food button click 
+    const likeFoodButton = document.getElementById('likeFood');
+    likeFoodButton.addEventListener('click', () => {
+    
+      alert('Food liked! ');
+    });
+  }
+});
+
     </script>
 
         </body>
