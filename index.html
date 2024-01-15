@@ -461,7 +461,13 @@ const cancelReservationButton = document.getElementById('cancelReservation');
     });
   }
 });
-
+    //  form submission
+    document.getElementById('reservation-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // Handle form submission 
+                alert('Reservation submitted successfully!');
+            });
+        });
     </script>
 
         </body>
