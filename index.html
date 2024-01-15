@@ -331,5 +331,31 @@ button {
     <footer>
         &copy; 2024 French Bistro. All rights reserved.
     </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Event listener for menu item details 
+            document.querySelectorAll('.menu-item').forEach(function (menuItem) {
+                menuItem.addEventListener('click', function () {
+                    this.classList.toggle('active');
+                });
+            });
+
+            // Event listener for navigation 
+            document.querySelector('nav').addEventListener('click', function (event) {
+                if (event.target.tagName === 'A') {
+                    // Handle navigation link click
+                    alert('Navigating to ' + event.target.innerText);
+                }
+            });
+            document.addEventListener('DOMContentLoaded', () => {
+  const foodMenu = document.getElementById('foodMenu');
+  const orderList = document.getElementById('orderList');
+  const orderButton = document.getElementById('orderButton');
+  const cancelOrderButton = document.getElementById('cancelOrderButton');
+            }
+    </script>
+
         </body>
-        </html>
+        </html> 
