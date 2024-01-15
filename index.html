@@ -354,7 +354,33 @@ button {
   const orderList = document.getElementById('orderList');
   const orderButton = document.getElementById('orderButton');
   const cancelOrderButton = document.getElementById('cancelOrderButton');
-            }
+            
+  foodMenu.addEventListener('click', (event) => {
+    if (event.target.tagName === 'LI') {
+      const foodId = event.target.getAttribute('data-food-id');
+      const foodName = event.target.textContent.split(' - ')[0];
+      const foodPrice = event.target.textContent.split('$')[1];
+
+      const orderItem = document.createElement('li');
+      orderItem.textContent = `${foodName} - $${foodPrice}`;
+      orderList.appendChild(orderItem);
+    }
+  });
+  orderButton.addEventListener('click', () => {
+    alert('Order Placed!');
+    clearOrderList();
+  });
+
+  cancelOrderButton.addEventListener('click', () => {
+    clearOrderList();
+  });
+
+  function clearOrderList() {
+    while (orderList.firstChild) {
+      orderList.removeChild(orderList.firstChild);
+    }
+  }
+});
     </script>
 
         </body>
