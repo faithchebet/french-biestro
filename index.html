@@ -404,7 +404,32 @@ document.addEventListener('DOMContentLoaded', () => {
       <img src="${imageData.image}" alt="${imageData.title}">
       <p>Likes: <span id="likesCount">${imageData.likes}</span></p>
     `;
+// Display comments
+commentsList.innerHTML = imageData.comments.map(comment => `<li>${comment.content}</li>`).join('');
 
+// Heart icon click event
+const heartIcon = document.getElementById('heartIcon');
+heartIcon.addEventListener('click', () => {
+  // Increase likes on the page (no persistence)
+  imageData.likes++;
+  likesCount.textContent = imageData.likes;
+});
+
+// Comment form submission event
+const commentForm = document.getElementById('commentForm');
+commentForm.addEventListener('submit', event => {
+  event.preventDefault();
+
+  const newCommentContent = document.getElementById('newComment').value;
+
+  // Add new comment to the page (no persistence)
+  const newCommentItem = document.createElement('li');
+  newCommentItem.textContent = newCommentContent;
+  commentsList.appendChild(newCommentItem);
+
+  // Clear the input field
+  document.getElementById('newComment').value = '';
+});
     </script>
 
         </body>
