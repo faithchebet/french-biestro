@@ -37,5 +37,7 @@ As a user,i can:
 html: Contains the HTML structure of the application.
 style: Provides the styling for the app.
 script: Includes the JavaScript code for interactive features.
-
+  
+  authors
+  faith chebet
 
