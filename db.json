@@ -1,0 +1,77 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "category": "appetizer",
+        "name": "irish-food-beef-stew",
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/09/irish-food-beef-stew.jpg.webp",
+        "description": "A delicious starter to ignite your taste buds.",
+        "price": 10.99
+      },
+      {
+        "id": 2,
+        "category": "main-course",
+        "name": "Main Course",
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2022/10/french-food-pinterest.jpg.webp",
+        "description": "Exquisite main course options that will satisfy your cravings.",
+        "price": 18.99
+      },
+      {
+        "id": 3,
+        "category": "dessert",
+        "name": "Dessert",
+        "image": "https://img.taste.com.au/Tu4IZM1t/w643-h428-cfill-q90/taste/2016/11/15-french-meals-you-have-to-try-67786-1.jpg",
+        "description": "Indulge in our sweet and delightful desserts.",
+        "price": 8.99
+      },
+      {
+        "id": 4,
+        "category": "main-course",
+        "name": "irish-food-soda-bread",
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/09/irish-food-soda-bread.jpg.webp",
+        "description": "A mainstay on the Irish dinner table, best served straight out of the oven or day-old toasted with butter.",
+        "price": 11.99
+      },
+      {
+        "id": 5,
+        "category": "main-course",
+        "name": "Shepherd’s Pie",
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/09/irish-food-shepherds-pie.jpg.webp",
+        "description": "Made with a layer of ground beef or lamb with vegetables and topped with creamy whipped mashed potatoes, then baked and browned to perfection.",
+        "price": 22.99
+      },
+      {
+        "id": 6,
+        "category": "main-course",
+        "name": "Colcannon and Champ",
+        "image": "https://www.willflyforfood.net/wp-content/uploads/2021/09/irish-food-colcannon.jpg.webp",
+        "description": "Potatoes once again take center stage, this time in their creamy mashed rendition alongside cabbage and spring onions.",
+        "price": 17.99
+      },
+      {
+        "id": 7,
+        "category": "main-course",
+        "name": "Boxty",
+        "image": "https://www.seasonsandsuppers.ca/wp-content/uploads/2020/03/boxty-1200-51-600x600.jpg",
+        "description": "Served for breakfast, lunch, dinner, or anything in between; there’s never a wrong time of day to enjoy this Irish potato pancake!",
+        "price": 21.99
+      },
+      {
+        "id": 8,
+        "category": "main-course",
+        "name": "Bambrack",
+        "image": "https://www.happyfoodstube.com/wp-content/uploads/2016/10/Irish-Barmbrack-Tea-Cake-Recipe.jpg",
+        "description": "Made with juicy raisins or dried fruits, this sweet loaf is made even more delicious when it’s soaked in tea and whiskey. Enjoy a thick slice of this fortunetelling fruitcake with an afternoon tea.",
+        "price": 24.99
+      },
+      {
+        "id": 9,
+        "category": "main-course",
+        "name": "Boiled Bacon and Cabbage",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-48975_10-442ca86.jpg?quality=90&webp=true&resize=300,272",
+        "description": "Finished off with a delicate and creamy parsley sauce, it’s an unexpectedly delicious and traditionally Irish meal.",
+        "price": 29.99
+      }
+    ]
+  }
+  
